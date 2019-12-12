@@ -28,10 +28,10 @@ import (
 	mrand "math/rand"
 	"strconv"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/crypto/ecies"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/crypto/ecies"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // MessageParams specifies the exact way a message should be wrapped

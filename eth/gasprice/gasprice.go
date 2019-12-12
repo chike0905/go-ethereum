@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/internal/ethapi"
-	"github.com/chike0905/chike-geth/params"
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/internal/ethapi"
+	"github.com/chike0905/go-ethereum/params"
+	"github.com/chike0905/go-ethereum/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.GWei)

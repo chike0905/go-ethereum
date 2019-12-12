@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/chike0905/chike-geth/core/state"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/core/vm"
+	"github.com/chike0905/go-ethereum/core/state"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

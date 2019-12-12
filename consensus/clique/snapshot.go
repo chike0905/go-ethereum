@@ -22,11 +22,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/ethdb"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/ethdb"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/params"
 	lru "github.com/hashicorp/golang-lru"
 )
 

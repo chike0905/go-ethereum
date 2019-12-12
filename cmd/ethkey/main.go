@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chike0905/chike-geth/cmd/utils"
+	"github.com/chike0905/go-ethereum/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

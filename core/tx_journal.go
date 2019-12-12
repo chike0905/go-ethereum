@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

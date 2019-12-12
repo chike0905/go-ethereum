@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/chike0905/chike-geth/accounts/keystore"
-	"github.com/chike0905/chike-geth/cmd/utils"
+	"github.com/chike0905/go-ethereum/accounts/keystore"
+	"github.com/chike0905/go-ethereum/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

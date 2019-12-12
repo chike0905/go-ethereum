@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/node"
-	"github.com/chike0905/chike-geth/p2p/enode"
-	"github.com/chike0905/chike-geth/p2p/simulations/adapters"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/node"
+	"github.com/chike0905/go-ethereum/p2p/enode"
+	"github.com/chike0905/go-ethereum/p2p/simulations/adapters"
 )
 
 // Tests that a created snapshot with a minimal service only contains the expected connections

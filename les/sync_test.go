@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/accounts/abi/bind"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/light"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/accounts/abi/bind"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/light"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // Test light syncing which will download all headers from genesis.
@@ -184,7 +184,7 @@ func testMissOracleBackend(t *testing.T, hasCheckpoint bool) {
 	// that user wants to unlock something which blocks the oracle backend
 	// initialisation. But at the same time syncing starts.
 	//
-	// See https://github.com/chike0905/chike-geth/issues/20097 for more detail.
+	// See https://github.com/chike0905/go-ethereum/issues/20097 for more detail.
 	//
 	// In this case, client should run light sync or legacy checkpoint sync
 	// if hardcoded checkpoint is configured.

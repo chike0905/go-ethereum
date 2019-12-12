@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/chike0905/chike-geth/accounts/keystore"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/accounts/keystore"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

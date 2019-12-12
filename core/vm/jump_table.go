@@ -19,7 +19,7 @@ package vm
 import (
 	"errors"
 
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 type (

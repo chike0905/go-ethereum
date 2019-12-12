@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/crypto"
 )
 
 // Node represents a host on the network.

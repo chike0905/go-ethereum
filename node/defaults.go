@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/chike0905/chike-geth/p2p"
-	"github.com/chike0905/chike-geth/p2p/nat"
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum/p2p"
+	"github.com/chike0905/go-ethereum/p2p/nat"
+	"github.com/chike0905/go-ethereum/rpc"
 )
 
 const (

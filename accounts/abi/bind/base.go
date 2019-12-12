@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/chike0905/chike-geth"
-	"github.com/chike0905/chike-geth/accounts/abi"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/event"
+	"github.com/chike0905/go-ethereum"
+	"github.com/chike0905/go-ethereum/accounts/abi"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

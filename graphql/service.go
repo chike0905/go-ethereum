@@ -21,10 +21,10 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/chike0905/chike-geth/internal/ethapi"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/p2p"
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum/internal/ethapi"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/p2p"
+	"github.com/chike0905/go-ethereum/rpc"
 	"github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
 )

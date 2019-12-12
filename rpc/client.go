@@ -28,7 +28,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 var (

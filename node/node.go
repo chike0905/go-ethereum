@@ -26,14 +26,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chike0905/chike-geth/accounts"
-	"github.com/chike0905/chike-geth/core/rawdb"
-	"github.com/chike0905/chike-geth/ethdb"
-	"github.com/chike0905/chike-geth/event"
-	"github.com/chike0905/chike-geth/internal/debug"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/p2p"
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum/accounts"
+	"github.com/chike0905/go-ethereum/core/rawdb"
+	"github.com/chike0905/go-ethereum/ethdb"
+	"github.com/chike0905/go-ethereum/event"
+	"github.com/chike0905/go-ethereum/internal/debug"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/p2p"
+	"github.com/chike0905/go-ethereum/rpc"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

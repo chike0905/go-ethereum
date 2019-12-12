@@ -22,12 +22,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/rawdb"
-	"github.com/chike0905/chike-geth/core/state"
-	"github.com/chike0905/chike-geth/ethdb"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/trie"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/rawdb"
+	"github.com/chike0905/go-ethereum/core/state"
+	"github.com/chike0905/go-ethereum/ethdb"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/trie"
 	"golang.org/x/crypto/sha3"
 )
 

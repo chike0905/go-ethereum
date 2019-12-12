@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

@@ -27,14 +27,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chike0905/chike-geth/common/mclock"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/ethdb"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/p2p"
-	"github.com/chike0905/chike-geth/p2p/discv5"
-	"github.com/chike0905/chike-geth/p2p/enode"
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum/common/mclock"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/ethdb"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/p2p"
+	"github.com/chike0905/go-ethereum/p2p/discv5"
+	"github.com/chike0905/go-ethereum/p2p/enode"
+	"github.com/chike0905/go-ethereum/rlp"
 )
 
 const (

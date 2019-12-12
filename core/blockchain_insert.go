@@ -19,10 +19,10 @@ package core
 import (
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/mclock"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/mclock"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // insertStats tracks and reports on block insertion.

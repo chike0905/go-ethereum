@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 const (

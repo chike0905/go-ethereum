@@ -19,8 +19,8 @@
 package geth
 
 import (
-	"github.com/chike0905/chike-geth/whisper/shhclient"
-	whisper "github.com/chike0905/chike-geth/whisper/whisperv6"
+	"github.com/chike0905/go-ethereum/whisper/shhclient"
+	whisper "github.com/chike0905/go-ethereum/whisper/whisperv6"
 )
 
 // WhisperClient provides access to the Ethereum APIs.

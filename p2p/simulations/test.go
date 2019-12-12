@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/chike0905/chike-geth/p2p"
-	"github.com/chike0905/chike-geth/p2p/enode"
-	"github.com/chike0905/chike-geth/p2p/enr"
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum/p2p"
+	"github.com/chike0905/go-ethereum/p2p/enode"
+	"github.com/chike0905/go-ethereum/p2p/enr"
+	"github.com/chike0905/go-ethereum/rpc"
 )
 
 // NoopService is the service that does not do anything

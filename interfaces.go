@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/types"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

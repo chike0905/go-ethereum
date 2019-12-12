@@ -24,9 +24,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chike0905/chike-geth/common/hexutil"
-	"github.com/chike0905/chike-geth/internal/ethapi"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/common/hexutil"
+	"github.com/chike0905/go-ethereum/internal/ethapi"
+	"github.com/chike0905/go-ethereum/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

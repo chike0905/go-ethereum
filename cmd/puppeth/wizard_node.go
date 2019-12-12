@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chike0905/chike-geth/accounts/keystore"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/accounts/keystore"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

@@ -28,7 +28,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/terminal"
 )

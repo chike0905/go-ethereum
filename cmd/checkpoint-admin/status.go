@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/chike0905/chike-geth/cmd/utils"
-	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/go-ethereum/cmd/utils"
+	"github.com/chike0905/go-ethereum/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

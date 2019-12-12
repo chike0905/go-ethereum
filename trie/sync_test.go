@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/ethdb/memorydb"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/ethdb/memorydb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

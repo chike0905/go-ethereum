@@ -22,13 +22,13 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/hexutil"
-	math2 "github.com/chike0905/chike-geth/common/math"
-	"github.com/chike0905/chike-geth/consensus/ethash"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/hexutil"
+	math2 "github.com/chike0905/go-ethereum/common/math"
+	"github.com/chike0905/go-ethereum/consensus/ethash"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // alethGenesisSpec represents the genesis specification format used by the

@@ -20,8 +20,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

@@ -25,7 +25,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // ipcListen will create a Unix socket on the given endpoint.

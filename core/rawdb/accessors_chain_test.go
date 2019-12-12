@@ -25,10 +25,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/params"
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/params"
+	"github.com/chike0905/go-ethereum/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

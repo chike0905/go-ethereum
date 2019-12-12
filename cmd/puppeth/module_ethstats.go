@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

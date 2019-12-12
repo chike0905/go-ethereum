@@ -21,7 +21,7 @@ package metrics
 import (
 	"syscall"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

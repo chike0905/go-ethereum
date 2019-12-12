@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/types"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

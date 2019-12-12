@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/internal/testlog"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/internal/testlog"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

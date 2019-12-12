@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/chike0905/chike-geth/accounts"
-	"github.com/chike0905/chike-geth/accounts/keystore"
-	"github.com/chike0905/chike-geth/cmd/utils"
-	"github.com/chike0905/chike-geth/console"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/accounts"
+	"github.com/chike0905/go-ethereum/accounts/keystore"
+	"github.com/chike0905/go-ethereum/cmd/utils"
+	"github.com/chike0905/go-ethereum/console"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

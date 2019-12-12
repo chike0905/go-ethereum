@@ -20,12 +20,12 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/chike0905/chike-geth/accounts"
-	"github.com/chike0905/chike-geth/core/rawdb"
-	"github.com/chike0905/chike-geth/ethdb"
-	"github.com/chike0905/chike-geth/event"
-	"github.com/chike0905/chike-geth/p2p"
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum/accounts"
+	"github.com/chike0905/go-ethereum/core/rawdb"
+	"github.com/chike0905/go-ethereum/ethdb"
+	"github.com/chike0905/go-ethereum/event"
+	"github.com/chike0905/go-ethereum/p2p"
+	"github.com/chike0905/go-ethereum/rpc"
 )
 
 // ServiceContext is a collection of service independent options inherited from

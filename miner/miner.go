@@ -23,16 +23,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/hexutil"
-	"github.com/chike0905/chike-geth/consensus"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/core/state"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/eth/downloader"
-	"github.com/chike0905/chike-geth/event"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/hexutil"
+	"github.com/chike0905/go-ethereum/consensus"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/core/state"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/eth/downloader"
+	"github.com/chike0905/go-ethereum/event"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // Backend wraps all methods required for mining.

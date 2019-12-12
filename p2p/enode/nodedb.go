@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"

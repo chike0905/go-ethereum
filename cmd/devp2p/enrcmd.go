@@ -27,9 +27,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chike0905/chike-geth/p2p/enode"
-	"github.com/chike0905/chike-geth/p2p/enr"
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum/p2p/enode"
+	"github.com/chike0905/go-ethereum/p2p/enr"
+	"github.com/chike0905/go-ethereum/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

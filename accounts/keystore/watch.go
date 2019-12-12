@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 	"github.com/rjeczalik/notify"
 )
 

@@ -19,9 +19,9 @@ package main
 import (
 	"time"
 
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/p2p/discover"
-	"github.com/chike0905/chike-geth/p2p/enode"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/p2p/discover"
+	"github.com/chike0905/go-ethereum/p2p/enode"
 )
 
 type crawler struct {

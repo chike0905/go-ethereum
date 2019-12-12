@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chike0905/chike-geth/common/mclock"
-	"github.com/chike0905/chike-geth/eth"
-	"github.com/chike0905/chike-geth/ethdb"
-	"github.com/chike0905/chike-geth/les/flowcontrol"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/metrics"
+	"github.com/chike0905/go-ethereum/common/mclock"
+	"github.com/chike0905/go-ethereum/eth"
+	"github.com/chike0905/go-ethereum/ethdb"
+	"github.com/chike0905/go-ethereum/les/flowcontrol"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

@@ -25,12 +25,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chike0905/chike-geth/accounts/keystore"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/hexutil"
-	"github.com/chike0905/chike-geth/common/math"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/signer/core"
+	"github.com/chike0905/go-ethereum/accounts/keystore"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/hexutil"
+	"github.com/chike0905/go-ethereum/common/math"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/signer/core"
 )
 
 var typesStandard = core.Types{

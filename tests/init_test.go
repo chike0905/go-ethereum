@@ -31,7 +31,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // Command line flags to configure the interpreters.

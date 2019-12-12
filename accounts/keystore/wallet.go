@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/chike0905/chike-geth"
-	"github.com/chike0905/chike-geth/accounts"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/crypto"
+	ethereum "github.com/chike0905/go-ethereum"
+	"github.com/chike0905/go-ethereum/accounts"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

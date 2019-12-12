@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/chike0905/chike-geth/core/types"
+import "github.com/chike0905/go-ethereum/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

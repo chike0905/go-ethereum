@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

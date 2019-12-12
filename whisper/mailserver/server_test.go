@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/crypto"
-	whisper "github.com/chike0905/chike-geth/whisper/whisperv6"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/crypto"
+	whisper "github.com/chike0905/go-ethereum/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

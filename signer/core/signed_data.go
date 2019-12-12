@@ -30,15 +30,15 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/chike0905/chike-geth/accounts"
-	"github.com/chike0905/chike-geth/accounts/abi"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/hexutil"
-	"github.com/chike0905/chike-geth/common/math"
-	"github.com/chike0905/chike-geth/consensus/clique"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum/accounts"
+	"github.com/chike0905/go-ethereum/accounts/abi"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/hexutil"
+	"github.com/chike0905/go-ethereum/common/math"
+	"github.com/chike0905/go-ethereum/consensus/clique"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/rlp"
 )
 
 type SigFormat struct {
@@ -612,7 +612,7 @@ func (api *SignerAPI) EcRecover(ctx context.Context, data hexutil.Bytes, sig hex
 	// Note, the signature must conform to the secp256k1 curve R, S and V values, where
 	// the V value must be be 27 or 28 for legacy reasons.
 	//
-	// https://github.com/chike0905/chike-geth/wiki/Management-APIs#personal_ecRecover
+	// https://github.com/chike0905/go-ethereum/wiki/Management-APIs#personal_ecRecover
 	if len(sig) != 65 {
 		return common.Address{}, fmt.Errorf("signature must be 65 bytes long")
 	}

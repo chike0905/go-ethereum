@@ -17,7 +17,7 @@
 package les
 
 import (
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

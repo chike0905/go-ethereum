@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/consensus/ethash"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/eth/downloader"
-	"github.com/chike0905/chike-geth/eth/gasprice"
-	"github.com/chike0905/chike-geth/miner"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/consensus/ethash"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/eth/downloader"
+	"github.com/chike0905/go-ethereum/eth/gasprice"
+	"github.com/chike0905/go-ethereum/miner"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // MarshalTOML marshals as TOML.

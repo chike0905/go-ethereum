@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/hexutil"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/hexutil"
 )
 
 var testAddrHex = "970e8128ab834e8eac17ab8e3812f010678cf791"

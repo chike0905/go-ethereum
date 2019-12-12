@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chike0905/chike-geth/accounts"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/hexutil"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/internal/ethapi"
-	"github.com/chike0905/chike-geth/signer/core"
-	"github.com/chike0905/chike-geth/signer/storage"
+	"github.com/chike0905/go-ethereum/accounts"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/hexutil"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/internal/ethapi"
+	"github.com/chike0905/go-ethereum/signer/core"
+	"github.com/chike0905/go-ethereum/signer/storage"
 )
 
 const JS = `

@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/chike0905/chike-geth"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/hexutil"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/rlp"
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/hexutil"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/rlp"
+	"github.com/chike0905/go-ethereum/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

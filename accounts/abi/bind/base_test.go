@@ -23,14 +23,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chike0905/chike-geth"
-	"github.com/chike0905/chike-geth/accounts/abi"
-	"github.com/chike0905/chike-geth/accounts/abi/bind"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/hexutil"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum"
+	"github.com/chike0905/go-ethereum/accounts/abi"
+	"github.com/chike0905/go-ethereum/accounts/abi/bind"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/hexutil"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/rlp"
 )
 
 type mockCaller struct {

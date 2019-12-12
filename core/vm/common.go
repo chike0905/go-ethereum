@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/math"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/math"
 )
 
 // calcMemSize64 calculates the required memory size, and returns

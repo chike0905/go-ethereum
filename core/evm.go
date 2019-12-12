@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/consensus"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/core/vm"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/consensus"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

@@ -19,10 +19,10 @@ package clique
 import (
 	"fmt"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/consensus"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/consensus"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

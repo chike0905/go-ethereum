@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/common/mclock"
-	"github.com/chike0905/chike-geth/core/rawdb"
-	"github.com/chike0905/chike-geth/p2p/enode"
+	"github.com/chike0905/go-ethereum/common/mclock"
+	"github.com/chike0905/go-ethereum/core/rawdb"
+	"github.com/chike0905/go-ethereum/p2p/enode"
 )
 
 func TestClientPoolL10C100Free(t *testing.T) {

@@ -26,9 +26,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/hexutil"
-	"github.com/chike0905/chike-geth/core/types"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/hexutil"
+	"github.com/chike0905/go-ethereum/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

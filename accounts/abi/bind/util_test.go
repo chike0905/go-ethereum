@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/accounts/abi/bind"
-	"github.com/chike0905/chike-geth/accounts/abi/bind/backends"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/go-ethereum/accounts/abi/bind"
+	"github.com/chike0905/go-ethereum/accounts/abi/bind/backends"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

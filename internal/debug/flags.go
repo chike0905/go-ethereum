@@ -24,9 +24,9 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/metrics"
-	"github.com/chike0905/chike-geth/metrics/exp"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/metrics"
+	"github.com/chike0905/go-ethereum/metrics/exp"
 	"github.com/fjl/memsize/memsizeui"
 	colorable "github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"

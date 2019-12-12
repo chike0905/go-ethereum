@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

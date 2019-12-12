@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // EnableEIP enables the given EIP on the config.

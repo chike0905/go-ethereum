@@ -19,7 +19,7 @@
 package fetcher
 
 import (
-	"github.com/chike0905/chike-geth/metrics"
+	"github.com/chike0905/go-ethereum/metrics"
 )
 
 var (

@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	ethereum "github.com/chike0905/chike-geth"
-	"github.com/chike0905/chike-geth/common"
+	ethereum "github.com/chike0905/go-ethereum"
+	"github.com/chike0905/go-ethereum/common"
 )
 
 // Subscription represents an event subscription where events are

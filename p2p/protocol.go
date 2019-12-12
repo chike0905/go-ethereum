@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/chike0905/chike-geth/p2p/enode"
-	"github.com/chike0905/chike-geth/p2p/enr"
+	"github.com/chike0905/go-ethereum/p2p/enode"
+	"github.com/chike0905/go-ethereum/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

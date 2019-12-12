@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/chike0905/chike-geth/cmd/utils"
-	"github.com/chike0905/chike-geth/common/fdlimit"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/cmd/utils"
+	"github.com/chike0905/go-ethereum/common/fdlimit"
+	"github.com/chike0905/go-ethereum/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

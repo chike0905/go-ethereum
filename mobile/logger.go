@@ -19,7 +19,7 @@ package geth
 import (
 	"os"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // SetVerbosity sets the global verbosity level (between 0 and 6 - see logger/verbosity.go).

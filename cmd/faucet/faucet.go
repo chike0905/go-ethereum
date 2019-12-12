@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chike0905/chike-geth/accounts"
-	"github.com/chike0905/chike-geth/accounts/keystore"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/eth"
-	"github.com/chike0905/chike-geth/eth/downloader"
-	"github.com/chike0905/chike-geth/ethclient"
-	"github.com/chike0905/chike-geth/ethstats"
-	"github.com/chike0905/chike-geth/les"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/node"
-	"github.com/chike0905/chike-geth/p2p"
-	"github.com/chike0905/chike-geth/p2p/discv5"
-	"github.com/chike0905/chike-geth/p2p/enode"
-	"github.com/chike0905/chike-geth/p2p/nat"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/accounts"
+	"github.com/chike0905/go-ethereum/accounts/keystore"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/eth"
+	"github.com/chike0905/go-ethereum/eth/downloader"
+	"github.com/chike0905/go-ethereum/ethclient"
+	"github.com/chike0905/go-ethereum/ethstats"
+	"github.com/chike0905/go-ethereum/les"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/node"
+	"github.com/chike0905/go-ethereum/p2p"
+	"github.com/chike0905/go-ethereum/p2p/discv5"
+	"github.com/chike0905/go-ethereum/p2p/enode"
+	"github.com/chike0905/go-ethereum/p2p/nat"
+	"github.com/chike0905/go-ethereum/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -467,7 +467,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/chike0905/chike-geth/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/chike0905/go-ethereum/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

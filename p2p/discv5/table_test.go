@@ -27,8 +27,8 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/crypto"
 )
 
 func TestBucket_bumpNoDuplicates(t *testing.T) {

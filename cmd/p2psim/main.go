@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/p2p"
-	"github.com/chike0905/chike-geth/p2p/enode"
-	"github.com/chike0905/chike-geth/p2p/simulations"
-	"github.com/chike0905/chike-geth/p2p/simulations/adapters"
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/p2p"
+	"github.com/chike0905/go-ethereum/p2p/enode"
+	"github.com/chike0905/go-ethereum/p2p/simulations"
+	"github.com/chike0905/go-ethereum/p2p/simulations/adapters"
+	"github.com/chike0905/go-ethereum/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -23,7 +23,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

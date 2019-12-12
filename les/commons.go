@@ -21,17 +21,17 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/core/rawdb"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/eth"
-	"github.com/chike0905/chike-geth/ethdb"
-	"github.com/chike0905/chike-geth/light"
-	"github.com/chike0905/chike-geth/p2p"
-	"github.com/chike0905/chike-geth/p2p/discv5"
-	"github.com/chike0905/chike-geth/p2p/enode"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/core/rawdb"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/eth"
+	"github.com/chike0905/go-ethereum/ethdb"
+	"github.com/chike0905/go-ethereum/light"
+	"github.com/chike0905/go-ethereum/p2p"
+	"github.com/chike0905/go-ethereum/p2p/discv5"
+	"github.com/chike0905/go-ethereum/p2p/enode"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 func errResp(code errCode, format string, v ...interface{}) error {

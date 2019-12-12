@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/crypto"
 )
 
 // Genesis hashes to enforce below configs on.

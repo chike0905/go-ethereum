@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/crypto"
 )
 
 func TestNetwork_Lookup(t *testing.T) {

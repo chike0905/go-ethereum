@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/chike0905/chike-geth/metrics"
-	"github.com/chike0905/chike-geth/p2p"
+	"github.com/chike0905/go-ethereum/metrics"
+	"github.com/chike0905/go-ethereum/p2p"
 )
 
 var (

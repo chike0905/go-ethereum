@@ -35,7 +35,7 @@ package whisperv6
 import (
 	"time"
 
-	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/go-ethereum/crypto"
 )
 
 // Whisper protocol parameters

@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chike0905/chike-geth"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/types"
+	"github.com/chike0905/go-ethereum"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/types"
 )
 
 var (

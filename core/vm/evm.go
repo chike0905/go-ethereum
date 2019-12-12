@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

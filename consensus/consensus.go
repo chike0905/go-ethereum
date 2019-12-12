@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/state"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/params"
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/state"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/params"
+	"github.com/chike0905/go-ethereum/rpc"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

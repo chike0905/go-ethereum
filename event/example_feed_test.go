@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/chike0905/chike-geth/event"
+	"github.com/chike0905/go-ethereum/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

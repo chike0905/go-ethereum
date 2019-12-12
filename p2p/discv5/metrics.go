@@ -16,7 +16,7 @@
 
 package discv5
 
-import "github.com/chike0905/chike-geth/metrics"
+import "github.com/chike0905/go-ethereum/metrics"
 
 var (
 	ingressTrafficMeter = metrics.NewRegisteredMeter("discv5/InboundTraffic", nil)

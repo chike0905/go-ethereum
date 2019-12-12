@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/state"
-	"github.com/chike0905/chike-geth/core/vm"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/state"
+	"github.com/chike0905/go-ethereum/core/vm"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 type account struct{}

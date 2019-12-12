@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/go-ethereum/crypto"
 )
 
 // Ensure the KDF generates appropriately sized keys.

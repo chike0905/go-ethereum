@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // Forks table defines supported forks and their chain config.

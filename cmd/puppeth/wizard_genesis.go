@@ -29,10 +29,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

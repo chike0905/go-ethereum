@@ -20,9 +20,9 @@ import (
 	"container/ring"
 	"sync"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // chainRetriever is used by the unconfirmed block set to verify whether a previously

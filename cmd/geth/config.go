@@ -27,11 +27,11 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/chike0905/chike-geth/cmd/utils"
-	"github.com/chike0905/chike-geth/eth"
-	"github.com/chike0905/chike-geth/node"
-	"github.com/chike0905/chike-geth/params"
-	whisper "github.com/chike0905/chike-geth/whisper/whisperv6"
+	"github.com/chike0905/go-ethereum/cmd/utils"
+	"github.com/chike0905/go-ethereum/eth"
+	"github.com/chike0905/go-ethereum/node"
+	"github.com/chike0905/go-ethereum/params"
+	whisper "github.com/chike0905/go-ethereum/whisper/whisperv6"
 	"github.com/naoina/toml"
 )
 

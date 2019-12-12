@@ -17,14 +17,14 @@
 package core
 
 import (
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/consensus"
-	"github.com/chike0905/chike-geth/consensus/misc"
-	"github.com/chike0905/chike-geth/core/state"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/core/vm"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/consensus"
+	"github.com/chike0905/go-ethereum/consensus/misc"
+	"github.com/chike0905/go-ethereum/core/state"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/core/vm"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

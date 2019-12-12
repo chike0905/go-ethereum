@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/chike0905/chike-geth/common/math"
+	"github.com/chike0905/go-ethereum/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

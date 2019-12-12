@@ -28,10 +28,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/p2p/enode"
-	"github.com/chike0905/chike-geth/p2p/enr"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/p2p/enode"
+	"github.com/chike0905/go-ethereum/p2p/enr"
 )
 
 var nullNode *enode.Node

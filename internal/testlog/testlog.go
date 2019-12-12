@@ -20,7 +20,7 @@ package testlog
 import (
 	"testing"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // Logger returns a logger which logs to the unit test log of t.

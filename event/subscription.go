@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chike0905/chike-geth/common/mclock"
+	"github.com/chike0905/go-ethereum/common/mclock"
 )
 
 // Subscription represents a stream of events. The carrier of the events is typically a

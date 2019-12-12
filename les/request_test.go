@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/rawdb"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/ethdb"
-	"github.com/chike0905/chike-geth/light"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/rawdb"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/ethdb"
+	"github.com/chike0905/go-ethereum/light"
 )
 
 var testBankSecureTrieKey = secAddr(bankAddr)

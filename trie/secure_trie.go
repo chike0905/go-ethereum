@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/accounts/keystore"
-	"github.com/chike0905/chike-geth/core/types"
+	"github.com/chike0905/go-ethereum/accounts/keystore"
+	"github.com/chike0905/go-ethereum/core/types"
 )
 
 // Tests that the account management snippets work correctly.

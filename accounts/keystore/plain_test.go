@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/crypto"
 )
 
 func tmpKeyStoreIface(t *testing.T, encrypted bool) (dir string, ks keyStore) {

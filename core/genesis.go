@@ -25,17 +25,17 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/hexutil"
-	"github.com/chike0905/chike-geth/common/math"
-	"github.com/chike0905/chike-geth/core/rawdb"
-	"github.com/chike0905/chike-geth/core/state"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/ethdb"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/params"
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/hexutil"
+	"github.com/chike0905/go-ethereum/common/math"
+	"github.com/chike0905/go-ethereum/core/rawdb"
+	"github.com/chike0905/go-ethereum/core/state"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/ethdb"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/params"
+	"github.com/chike0905/go-ethereum/rlp"
 )
 
 //go:generate gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go

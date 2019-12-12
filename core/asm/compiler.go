@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chike0905/chike-geth/common/math"
-	"github.com/chike0905/chike-geth/core/vm"
+	"github.com/chike0905/go-ethereum/common/math"
+	"github.com/chike0905/go-ethereum/core/vm"
 )
 
 // Compiler contains information about the parsed source

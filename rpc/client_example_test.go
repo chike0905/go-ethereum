@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

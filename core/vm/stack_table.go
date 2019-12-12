@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 func minSwapStack(n int) int {

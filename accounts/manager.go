@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/event"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/event"
 )
 
 // Config contains the settings of the global account manager.

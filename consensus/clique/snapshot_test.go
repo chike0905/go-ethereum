@@ -22,13 +22,13 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/core/rawdb"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/core/vm"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/core/rawdb"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/core/vm"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // testerAccountPool is a pool to maintain currently active tester accounts,
@@ -363,7 +363,7 @@ func TestClique(t *testing.T) {
 			failure: errRecentlySigned,
 		}, {
 			// Recent signatures should not reset on checkpoint blocks imported in a new
-			// batch (https://github.com/chike0905/chike-geth/issues/17593). Whilst this
+			// batch (https://github.com/chike0905/go-ethereum/issues/17593). Whilst this
 			// seems overly specific and weird, it was a Rinkeby consensus split.
 			epoch:   3,
 			signers: []string{"A", "B", "C"},

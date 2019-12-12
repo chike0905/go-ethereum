@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/accounts/abi/bind"
-	"github.com/chike0905/chike-geth/accounts/abi/bind/backends"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/contracts/checkpointoracle/contract"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/accounts/abi/bind"
+	"github.com/chike0905/go-ethereum/accounts/abi/bind/backends"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/contracts/checkpointoracle/contract"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 var (

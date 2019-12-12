@@ -20,11 +20,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/chike0905/chike-geth/common/mclock"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/ethdb"
-	"github.com/chike0905/chike-geth/light"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/common/mclock"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/ethdb"
+	"github.com/chike0905/go-ethereum/light"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // LesOdr implements light.OdrBackend

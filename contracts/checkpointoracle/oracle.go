@@ -23,10 +23,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chike0905/chike-geth/accounts/abi/bind"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/contracts/checkpointoracle/contract"
-	"github.com/chike0905/chike-geth/core/types"
+	"github.com/chike0905/go-ethereum/accounts/abi/bind"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/contracts/checkpointoracle/contract"
+	"github.com/chike0905/go-ethereum/core/types"
 )
 
 // CheckpointOracle is a Go wrapper around an on-chain light client checkpoint oracle.

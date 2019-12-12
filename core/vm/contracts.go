@@ -22,12 +22,12 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/math"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/crypto/blake2b"
-	"github.com/chike0905/chike-geth/crypto/bn256"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/math"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/crypto/blake2b"
+	"github.com/chike0905/go-ethereum/crypto/bn256"
+	"github.com/chike0905/go-ethereum/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

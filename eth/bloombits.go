@@ -20,13 +20,13 @@ import (
 	"context"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/bitutil"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/core/bloombits"
-	"github.com/chike0905/chike-geth/core/rawdb"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/ethdb"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/bitutil"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/core/bloombits"
+	"github.com/chike0905/go-ethereum/core/rawdb"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/ethdb"
 )
 
 const (

@@ -26,10 +26,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/crypto/ecies"
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/crypto/ecies"
+	"github.com/chike0905/go-ethereum/rlp"
 )
 
 // Envelope represents a clear-text data packet to transmit through the Whisper

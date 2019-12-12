@@ -26,7 +26,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 var (

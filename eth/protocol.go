@@ -21,12 +21,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/core/forkid"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/event"
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/core/forkid"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/event"
+	"github.com/chike0905/go-ethereum/rlp"
 )
 
 // Constants to match up protocol versions and messages

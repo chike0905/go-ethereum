@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/consensus/ethash"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/eth"
-	"github.com/chike0905/chike-geth/internal/jsre"
-	"github.com/chike0905/chike-geth/miner"
-	"github.com/chike0905/chike-geth/node"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/consensus/ethash"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/eth"
+	"github.com/chike0905/go-ethereum/internal/jsre"
+	"github.com/chike0905/go-ethereum/miner"
+	"github.com/chike0905/go-ethereum/node"
 )
 
 const (

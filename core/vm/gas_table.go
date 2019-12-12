@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/math"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/math"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

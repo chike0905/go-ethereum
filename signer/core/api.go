@@ -25,16 +25,16 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/chike0905/chike-geth/accounts"
-	"github.com/chike0905/chike-geth/accounts/keystore"
-	"github.com/chike0905/chike-geth/accounts/scwallet"
-	"github.com/chike0905/chike-geth/accounts/usbwallet"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/hexutil"
-	"github.com/chike0905/chike-geth/internal/ethapi"
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/rlp"
-	"github.com/chike0905/chike-geth/signer/storage"
+	"github.com/chike0905/go-ethereum/accounts"
+	"github.com/chike0905/go-ethereum/accounts/keystore"
+	"github.com/chike0905/go-ethereum/accounts/scwallet"
+	"github.com/chike0905/go-ethereum/accounts/usbwallet"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/hexutil"
+	"github.com/chike0905/go-ethereum/internal/ethapi"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/rlp"
+	"github.com/chike0905/go-ethereum/signer/storage"
 )
 
 const (

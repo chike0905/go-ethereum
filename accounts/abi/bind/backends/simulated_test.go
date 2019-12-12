@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"testing"
 
-	ethereum "github.com/chike0905/chike-geth"
-	"github.com/chike0905/chike-geth/accounts/abi/bind"
-	"github.com/chike0905/chike-geth/accounts/abi/bind/backends"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/crypto"
+	ethereum "github.com/chike0905/go-ethereum"
+	"github.com/chike0905/go-ethereum/accounts/abi/bind"
+	"github.com/chike0905/go-ethereum/accounts/abi/bind/backends"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/crypto"
 )
 
 func TestSimulatedBackend(t *testing.T) {

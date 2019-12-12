@@ -23,11 +23,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/ethdb"
-	"github.com/chike0905/chike-geth/ethdb/leveldb"
-	"github.com/chike0905/chike-geth/ethdb/memorydb"
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/ethdb"
+	"github.com/chike0905/go-ethereum/ethdb/leveldb"
+	"github.com/chike0905/go-ethereum/ethdb/memorydb"
+	"github.com/chike0905/go-ethereum/log"
 	"github.com/olekukonko/tablewriter"
 )
 

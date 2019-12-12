@@ -26,9 +26,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/chike0905/chike-geth/common/math"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/p2p/enr"
+	"github.com/chike0905/go-ethereum/common/math"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/p2p/enr"
 )
 
 var (

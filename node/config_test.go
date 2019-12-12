@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/p2p"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

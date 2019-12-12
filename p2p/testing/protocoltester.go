@@ -32,14 +32,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chike0905/chike-geth/log"
-	"github.com/chike0905/chike-geth/node"
-	"github.com/chike0905/chike-geth/p2p"
-	"github.com/chike0905/chike-geth/p2p/enode"
-	"github.com/chike0905/chike-geth/p2p/simulations"
-	"github.com/chike0905/chike-geth/p2p/simulations/adapters"
-	"github.com/chike0905/chike-geth/rlp"
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum/log"
+	"github.com/chike0905/go-ethereum/node"
+	"github.com/chike0905/go-ethereum/p2p"
+	"github.com/chike0905/go-ethereum/p2p/enode"
+	"github.com/chike0905/go-ethereum/p2p/simulations"
+	"github.com/chike0905/go-ethereum/p2p/simulations/adapters"
+	"github.com/chike0905/go-ethereum/rlp"
+	"github.com/chike0905/go-ethereum/rpc"
 )
 
 // ProtocolTester is the tester environment used for unit testing protocol

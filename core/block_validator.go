@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/chike0905/chike-geth/consensus"
-	"github.com/chike0905/chike-geth/core/state"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum/consensus"
+	"github.com/chike0905/go-ethereum/core/state"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

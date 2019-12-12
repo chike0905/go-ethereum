@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/p2p"
-	"github.com/chike0905/chike-geth/rpc"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/p2p"
+	"github.com/chike0905/go-ethereum/rpc"
 )
 
 var (

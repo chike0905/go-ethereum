@@ -25,16 +25,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chike0905/chike-geth"
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/consensus/ethash"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/core/rawdb"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/eth"
-	"github.com/chike0905/chike-geth/node"
-	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/go-ethereum"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/consensus/ethash"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/core/rawdb"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/eth"
+	"github.com/chike0905/go-ethereum/node"
+	"github.com/chike0905/go-ethereum/params"
 )
 
 // Verify that Client implements the ethereum interfaces.

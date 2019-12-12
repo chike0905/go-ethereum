@@ -26,17 +26,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/common/mclock"
-	"github.com/chike0905/chike-geth/core"
-	"github.com/chike0905/chike-geth/core/types"
-	"github.com/chike0905/chike-geth/eth"
-	"github.com/chike0905/chike-geth/les/flowcontrol"
-	"github.com/chike0905/chike-geth/light"
-	"github.com/chike0905/chike-geth/p2p"
-	"github.com/chike0905/chike-geth/p2p/enode"
-	"github.com/chike0905/chike-geth/params"
-	"github.com/chike0905/chike-geth/rlp"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/common/mclock"
+	"github.com/chike0905/go-ethereum/core"
+	"github.com/chike0905/go-ethereum/core/types"
+	"github.com/chike0905/go-ethereum/eth"
+	"github.com/chike0905/go-ethereum/les/flowcontrol"
+	"github.com/chike0905/go-ethereum/light"
+	"github.com/chike0905/go-ethereum/p2p"
+	"github.com/chike0905/go-ethereum/p2p/enode"
+	"github.com/chike0905/go-ethereum/params"
+	"github.com/chike0905/go-ethereum/rlp"
 )
 
 var (

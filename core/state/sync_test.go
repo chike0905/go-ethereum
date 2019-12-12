@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/chike0905/chike-geth/common"
-	"github.com/chike0905/chike-geth/core/rawdb"
-	"github.com/chike0905/chike-geth/crypto"
-	"github.com/chike0905/chike-geth/ethdb"
-	"github.com/chike0905/chike-geth/ethdb/memorydb"
-	"github.com/chike0905/chike-geth/trie"
+	"github.com/chike0905/go-ethereum/common"
+	"github.com/chike0905/go-ethereum/core/rawdb"
+	"github.com/chike0905/go-ethereum/crypto"
+	"github.com/chike0905/go-ethereum/ethdb"
+	"github.com/chike0905/go-ethereum/ethdb/memorydb"
+	"github.com/chike0905/go-ethereum/trie"
 )
 
 // testAccount is the data associated with an account used by the state tests.

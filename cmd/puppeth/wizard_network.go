@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/go-ethereum/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an
