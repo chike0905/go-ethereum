@@ -34,7 +34,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/chike0905/chike-geth/log"
 )
 
 // Handler is the global debugging handler.

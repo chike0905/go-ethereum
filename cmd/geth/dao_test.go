@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/core/rawdb"
+	"github.com/chike0905/chike-geth/params"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

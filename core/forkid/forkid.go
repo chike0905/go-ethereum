@@ -26,10 +26,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/core"
+	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/chike-geth/params"
 )
 
 var (

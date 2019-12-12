@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	ethereum "github.com/chike0905/chike-geth"
+	"github.com/chike0905/chike-geth/accounts"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/core/types"
+	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/chike-geth/log"
 	"github.com/karalabe/usb"
 )
 

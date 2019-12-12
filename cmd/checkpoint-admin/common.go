@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/checkpointoracle"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/chike0905/chike-geth/accounts"
+	"github.com/chike0905/chike-geth/accounts/abi/bind"
+	"github.com/chike0905/chike-geth/accounts/external"
+	"github.com/chike0905/chike-geth/cmd/utils"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/contracts/checkpointoracle"
+	"github.com/chike0905/chike-geth/ethclient"
+	"github.com/chike0905/chike-geth/params"
+	"github.com/chike0905/chike-geth/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

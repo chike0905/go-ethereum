@@ -17,10 +17,10 @@
 package eth
 
 import (
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/chike0905/chike-geth/core"
+	"github.com/chike0905/chike-geth/core/forkid"
+	"github.com/chike0905/chike-geth/p2p/enode"
+	"github.com/chike0905/chike-geth/rlp"
 )
 
 // ethEntry is the "eth" ENR entry which advertises eth protocol

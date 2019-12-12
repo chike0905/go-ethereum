@@ -21,8 +21,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/chike-geth/p2p/enr"
 	"github.com/stretchr/testify/assert"
 )
 

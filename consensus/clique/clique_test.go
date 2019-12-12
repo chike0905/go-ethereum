@@ -20,13 +20,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/core"
+	"github.com/chike0905/chike-geth/core/rawdb"
+	"github.com/chike0905/chike-geth/core/types"
+	"github.com/chike0905/chike-geth/core/vm"
+	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/chike-geth/params"
 )
 
 // This test case is a repro of an annoying bug that took us forever to catch.

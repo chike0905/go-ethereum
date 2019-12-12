@@ -21,9 +21,9 @@ import (
 	"hash"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/common/math"
+	"github.com/chike0905/chike-geth/log"
 )
 
 // Config are the configuration options for the Interpreter

@@ -24,10 +24,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/common/mclock"
+	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/chike-geth/log"
 )
 
 const (

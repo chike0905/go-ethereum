@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm/runtime"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/core/vm/runtime"
 )
 
 func ExampleExecute() {

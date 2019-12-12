@@ -26,9 +26,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/chike-geth/metrics"
 	"github.com/golang/snappy"
 )
 

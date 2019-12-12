@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/consensus/ethash"
+	"github.com/chike0905/chike-geth/core"
+	"github.com/chike0905/chike-geth/core/rawdb"
+	"github.com/chike0905/chike-geth/core/types"
+	"github.com/chike0905/chike-geth/ethdb"
+	"github.com/chike0905/chike-geth/params"
 )
 
 // So we can deterministically seed different blockchains

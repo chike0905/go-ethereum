@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/core/types"
+	"github.com/chike0905/chike-geth/ethdb"
+	"github.com/chike0905/chike-geth/rlp"
 )
 
 // Tests that positional lookup metadata can be stored and retrieved.

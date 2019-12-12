@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/chike0905/chike-geth/node"
+	"github.com/chike0905/chike-geth/p2p"
+	"github.com/chike0905/chike-geth/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

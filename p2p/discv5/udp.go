@@ -24,11 +24,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/chike-geth/p2p/netutil"
+	"github.com/chike0905/chike-geth/rlp"
 )
 
 const Version = 4

@@ -24,11 +24,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common/compiler"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/chike0905/chike-geth/accounts/abi/bind"
+	"github.com/chike0905/chike-geth/cmd/utils"
+	"github.com/chike0905/chike-geth/common/compiler"
+	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/chike-geth/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

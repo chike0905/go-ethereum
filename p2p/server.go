@@ -29,17 +29,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/common/mclock"
+	"github.com/chike0905/chike-geth/crypto"
+	"github.com/chike0905/chike-geth/event"
+	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/chike-geth/p2p/discover"
+	"github.com/chike0905/chike-geth/p2p/discv5"
+	"github.com/chike0905/chike-geth/p2p/enode"
+	"github.com/chike0905/chike-geth/p2p/enr"
+	"github.com/chike0905/chike-geth/p2p/nat"
+	"github.com/chike0905/chike-geth/p2p/netutil"
 )
 
 const (

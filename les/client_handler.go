@@ -21,14 +21,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/chike0905/chike-geth/common"
+	"github.com/chike0905/chike-geth/common/mclock"
+	"github.com/chike0905/chike-geth/core/types"
+	"github.com/chike0905/chike-geth/eth/downloader"
+	"github.com/chike0905/chike-geth/light"
+	"github.com/chike0905/chike-geth/log"
+	"github.com/chike0905/chike-geth/p2p"
+	"github.com/chike0905/chike-geth/params"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server
